@@ -7,5 +7,8 @@ public class HelloWorld {
         }).start(7070);
 
         app.get("/", ctx -> ctx.result("Hello World"));
+        app.get("/user", ctx -> {
+            //
+        });
     }
 }
